@@ -10,41 +10,127 @@
     background-color: rgba(241, 91, 34, 1);
     color: rgba(255, 255, 255, 1);
 }
- .first-container{
-    width: 100%;
-    height: 800px;
-    background-image: url('new-year-new-me/images/banner/banner2.png');
-    background-repeat: no-repeat;
-    background-size: cover;    
- }
+.first-container {
+  width: 100%;
+  height: 800px;
+  background-image: url('new-year-new-me/images/banner/banner2.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: center;        /* vertical center */
+  justify-content: flex-end;  /* push content to right */
+  padding-right: 120px;
+}
+
 .info{
     margin: 0 auto;
-    
-    justify-content: center;
     align-items: center;
     text-align: right;
+    padding-left: 845px;
+    max-width: 525px;
  }
- .first-container h2{
-    color: var(--Dark 01, rgba(21, 20, 20, 1));
-    font-family: Work Sans;
-    font-style: Bold;
-    font-size: 65px;
-    font-weight: 700;
-    line-height: 76px;
-    letter-spacing: 0%;
-    text-align: right;
-    width: 525px;
-    height: 228px;
- }
- .first-container p{
-    color: var(--Dark 02, rgba(68, 67, 67, 1));
-    font-family: Work Sans;
-    font-style: Regular;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 26px;
-    letter-spacing: 0%;
-    text-align: right;
-    width: 494px;
-    height: 78px;
-    }
+.first-container h2 {
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 76px;
+  margin-bottom: 20px;
+}
+
+.first-container p {
+  font-size: 16px;
+  line-height: 26px;
+  margin-bottom: 30px;
+}
+
+.failure{
+   /* border: 1px solid red; */
+   width: 1300px;
+   max-width: 1900px;
+   margin: 130px 322px 0px;
+   display: flex;
+   justify-content: right;
+   align-items: center;  
+}
+
+.content{
+   padding: 239px 0px 80px 84px;
+}
+.content h2{
+   width: 288px;
+   color: var(--Dark 01, rgba(21, 20, 20, 1));
+   font-family: Work Sans;
+   font-style: Bold;
+   font-size: 40px;
+   font-weight: 700;
+   line-height: 47px;
+   letter-spacing: 0%;
+   text-align: left;
+   padding-right: 128px;
+   padding-bottom: 24px;
+   }
+.content p{
+   color: var(--Dark 02, rgba(68, 67, 67, 1));
+   font-family: Work Sans;
+   font-style: Regular;
+   font-size: 16px;
+   font-weight: 400;
+   line-height: 26px;
+   letter-spacing: 0%;
+   text-align: left;
+   padding-bottom: 21px;
+}
+.content ul{
+   list-style-type: symbols('');
+}
+#Plans-h{
+   color: var(--Dark 01, rgba(21, 20, 20, 1));
+   font-family: Work Sans;
+   font-style: Bold;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 35px;
+   letter-spacing: 0%;
+   text-align: center;
+   margin: 90px 0 0 60px;
+}
+.plan-cards{
+   /* border: 1px solid red; */
+   display: flex;
+   margin: 0 auto;
+   gap: 80px;
+   width: 1300px;
+   max-width: 1900px;
+   justify-content: center;
+}
+.plan-cards h3{
+   color: var(--Dark 01, rgba(21, 20, 20, 1));
+   font-family: Work Sans;
+   font-style: Bold;
+   font-size: 30px;
+   font-weight: 700;
+   line-height: 35px;
+   letter-spacing: 0%;
+   text-align: center;
+   
+}
+.plan-cards p{
+   color: var(--Dark 03, rgba(115, 114, 114, 1));
+   font-family: Work Sans;
+   font-style: Medium;
+   font-size: 25px;
+   font-weight: 500;
+   line-height: 29px;
+   letter-spacing: 0%;
+   text-align: center;
+}
+.banner{
+   border: 1px solid red;
+   width: 1140px;
+   max-width: 1900px;
+   height: 300px;
+   margin: 130px auto;
+   text-align: center;
+   background-image: url('new-year-new-me/images/watch.png');
+}
